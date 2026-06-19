@@ -82,23 +82,3 @@ python src/train_model.py
 streamlit run app.py
 ```
 
-## Resume Bullet Points
-
-You can add this to your resume:
-
-**Fraud Risk Scoring & Transaction Anomaly Detection**  
-**Tech Stack:** Python, SQL, Pandas, Scikit-learn, Random Forest, Gradient Boosting, Isolation Forest, Streamlit
-
-- Built an end-to-end fraud risk analytics solution to detect suspicious transactions using customer, merchant, payment, location, and transaction behavior data.
-- Engineered risk features including transaction velocity, amount deviation, failed transaction ratio, merchant category risk, location mismatch, and time-of-day spending behavior.
-- Applied Random Forest, Gradient Boosting, and Isolation Forest models to classify fraud risk and detect anomalous transaction patterns.
-- Built a Streamlit dashboard to monitor fraud trends, high-risk merchants, transaction anomalies, model risk scores, and investigation priorities.
-
-## Suggested GitHub README Additions
-
-Add screenshots from your Streamlit app:
-- Fraud trend chart
-- Risk score distribution
-- High-risk transaction table
-- Merchant category risk chart
-- Confusion matrix / model metrics
