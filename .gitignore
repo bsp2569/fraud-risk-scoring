@@ -3,3 +3,13 @@ __pycache__/
 .DS_Store
 *.pyc
 .env
+
+
+## Suggested GitHub README Additions
+
+# Add screenshots from your Streamlit app:
+# - Fraud trend chart
+# - Risk score distribution
+# - High-risk transaction table
+# - Merchant category risk chart
+# - Confusion matrix / model metrics
