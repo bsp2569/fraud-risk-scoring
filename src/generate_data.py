@@ -82,7 +82,7 @@ def generate_synthetic_transactions(n_transactions: int = 25000) -> pd.DataFrame
     is_fraud = np.random.binomial(1, fraud_probability)
 
     # Make fraud rare but meaningful
-    rare_mask = np.random.rand(n_transactions) < 0.84
+    rare_mask = np.random.rand(n_transactions) < 0.6
     is_fraud = np.where(rare_mask & (fraud_probability < 0.55), 0, is_fraud)
 
     df = pd.DataFrame({
