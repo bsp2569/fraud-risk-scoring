@@ -1,10 +1,6 @@
 # Fraud Risk Scoring & Transaction Anomaly Detection
 
-A resume-ready Data Science project for fraud analytics, payment risk scoring, transaction anomaly detection, and dashboarding.
 
-## What this project does
-
-This project builds an end-to-end fraud risk analytics system:
 
 1. Generates a realistic synthetic transaction dataset.
 2. Engineers fraud-risk features such as transaction velocity, location mismatch, failed transaction ratio, merchant category risk, and time-of-day risk.
